@@ -1,0 +1,68 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# ---- Virtual Environment ----
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# ---- Flask / Build ----
+instance/
+*.db
+*.sqlite3
+*.log
+
+# ---- Cache / Temp ----
+*.log
+*.tmp
+*.bak
+*.swp
+*.pid
+*.seed
+*.out
+*.err
+*.tar
+*.zip
+*.gz
+*.egg-info/
+.cache/
+.mypy_cache/
+.pytest_cache/
+coverage/
+
+# ---- Environment & Secrets ----
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.aws/
+.aws/credentials
+*.json
+
+# ---- LangChain / Pinecone ----
+.pinecone/
+langchain.db
+vectorstore/
+
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.iml
+
+# ---- AWS / Deployment ----
+*.tar.gz
+*.bak
+*.tfstate
+*.tfstate.*
+*.terraform/
+.aws-sam/
